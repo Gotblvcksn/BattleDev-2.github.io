@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: inline-flex;
+    padding: 20px;
+}
+.logo{
+    position: absolute;
+    left: 50px;
+}
+.logo img{
+    position: absolute;
+    width: 40px;
+    left: 50px;
+}
+.links{
+    position: absolute;
+    right: 300px;
+    top: 10px;
+}
+ul{
+    display: inline-flex;
+}
+li a{
+    margin-right: 30px;
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+.buttons{
+    position: absolute;
+    right: 80px;
+    top: 20px;
+}
+button{
+    background-color: orangered;
+    color: white;
+    padding: 8px;
+    border: 1px solid orangered;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.signup{
+    background-color: white;
+    color: orangered;
+    padding: 8px;
+    border: 1px solid orangered;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.content{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.one{
+    font-size: 40px;
+    opacity: 0.8;
+}
+.second{
+    font-size: 30px;
+}
+
+.right img{
+    width: 800px;
+}
+.plus{
+    background-color: orangered;
+    color: white;
+    padding: 8px;
+    border: 1px solid orangered;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.fa-arrow-right{
+    transform: rotate(-50deg);
+}
+footer{
+    position: absolute;
+    top: 630px;
+    left: 550px;
+}
+.previous{
+    border-right: 1px solid black;
+    padding-right: 5px;
+    opacity: 0.4;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+}
+.next{
+    margin-left: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fa-chevron-right{
+    opacity: 0.7;
+}
